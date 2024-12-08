@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="log_in.css">
     <title>Log in</title>
 </head>
 <body>
+    <header>
+        <img id="webLogo" src="images/logo/career-path.png" alt="EduStep_logo">
+        <p class="brand"><span style="color: #608BC1;" >Edu</span><span style="color: #133E87;">Step</span></p>
+    </header>
+
+    <section class="body">
+        <div class="left">
+            <img class="pic" src="images/logo/Mobile login-pana.png" alt="">
+        </div>
+        <div class="right">
+            <div class="info" id="title" style="margin-bottom: 15px;">
+                <h1 style="font-size: 45px; color: #133E87;">Welcome Back!</h1>
+                <p style="font-size: 14px; color: #608BC1; font-weight: 600;">Login your account</p>
+            </div>
+            <div class="info">
+                <div class="side">
+                    <label for="">Username</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+            </div>
+            <div class="info">
+                <div class="side">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Enter your password">
+                    <div class="side_box">
+                        <div class="text">
+                            <input type="checkbox">
+                            <label style="color: #9B1B30; font-size: 14px;" for="">Remember me</label>
+                        </div>
+                        <label style="color: #c0c0c0; font-size: 14px;" for="">Forget password</label>
+                    </div>
+                </div>
+            </div>
+            <div class="info" id="goTosignup">
+                <input type="submit" id="log_in" value="Login">
+                <p><span style="font-weight: 600; color: #606060;">Don't have account ?</span> <span style="font-weight: 600;"><a href="sign_up.html">Sign up</a></span></p>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>
